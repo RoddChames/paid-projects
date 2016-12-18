@@ -1,0 +1,7 @@
+“<FilesMatch "\.(ttf|otf|eot|woff)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>”
+
+Excerpt From: David Cochran & Ian Whitley. “Bootstrap Site Blueprints.” iBooks. https://itun.es/us/FD2rX.l
